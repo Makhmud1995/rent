@@ -5,6 +5,7 @@ import Login2 from '../../assets/login.png'
 import Login1 from '../../assets/login1.png'
 
 
+
 const Navbar = () => {
   return (
     <Container>
@@ -27,8 +28,14 @@ const Navbar = () => {
         </NavLink>
     </MenuWrapper>
     <Login>
+        <NavLink to='/Cart'>
+
         <img src={Login2} alt="" />
+        </NavLink>
+        <NavLink to='/Profil'>
+
         <img src={Login1} alt="" />
+        </NavLink>
         <div>Eng</div>
     </Login>
     </Container>

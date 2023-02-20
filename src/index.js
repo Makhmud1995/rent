@@ -9,6 +9,8 @@ import Tuning from './components/menu-page/Tuning';
 import UsedCar from './components/menu-page/UsedCar';
 import CampingPlace from './components/menu-page/CampingPlace';
 import Navbar from './components/navbar/Navbar';
+import Profil from './components/menu-page/profil';
+import Cart from './components/menu-page/cart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +23,8 @@ root.render(
 <Route path='/Tuning' element={<Tuning />} />
 <Route path='/UsedCar' element={<UsedCar />} />
 <Route path='/CampingPlace' element={<CampingPlace />} />
-
+<Route path='/profil' element={<Profil />} />
+<Route path='/cart' element={<Cart />} />
  </Routes>
  </BrowserRouter>
 );
