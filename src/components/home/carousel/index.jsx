@@ -9,16 +9,13 @@ const CarouselPage = () => {
   return (
     <Carousel>
     <div>
-        <img src={CarImg1} alt='' />
-        <p className="legend">Legend 1</p>
+        <img src={CarImg} alt='' />
     </div>
     <div>
-    <img src={CarImg} alt='' />
-        <p className="legend">Legend 2</p>
+    <img src={CarImg1} alt='' />
     </div>
     <div>
     <img src={CarImg2} alt='' />
-        <p className="legend">Legend 3</p>
     </div>
 </Carousel>
   )
