@@ -1,16 +1,21 @@
 import React from 'react'
 import CarouselPage from '../../home/carousel'
 import MultiCarousel from '../../home/multi-carousel'
-import { Reccomend } from './style'
+import { Reccomend,Main,MotorPage } from './style'
+import VideoPage from '../../home/Video/VideoPage'
 
 
 const Motor = () => {
   return (
-    <div>
+    <MotorPage>
     <CarouselPage/>
    <Reccomend>Rccomends</Reccomend>
     <MultiCarousel/>
-    </div>
+    <Main>
+            <p>Video</p>
+        </Main>
+    <VideoPage/>
+    </MotorPage>
   )
 }
 
