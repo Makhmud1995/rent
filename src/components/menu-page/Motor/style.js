@@ -62,24 +62,36 @@ export const Blog = styled.div`
 width: 1226px;
 height: 605.95px;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 
 `
 
 export const Img= styled.div`
-width:50%;
+  display: grid;
+  grid-template-areas: "a a a";
+  align-items: center;
+  justify-content: space-evenly;
+width: 258px;
+height: 258px;
+img{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image.png);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;10px;
+    margin:15px
+}
+
 
 `
 export const Text = styled.div`
-width: 50%;
 display: flex;
 align-items: start;
 flex-direction: column;
+width: 500px;
+margin-top:50px;
+margin-left: 100px;
 h2{
     width: 116px;
 height: 34px;
-left: 70px;
-top: 2038.05px;
 
 font-family: 'Montserrat';
 font-style: normal;

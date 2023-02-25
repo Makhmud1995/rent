@@ -3,6 +3,7 @@ import CarouselPage from '../../home/carousel'
 import MultiCarousel from '../../home/multi-carousel'
 import { Reccomend,Main,MotorPage,Blog,Text,Img} from './style'
 import VideoPage from '../../home/Video/VideoPage'
+import BlogImg from '../../Data/assets/car1.png'
 
 
 const Motor = () => {
@@ -26,7 +27,12 @@ const Motor = () => {
 
           </Text>
         <Img>
-        <VideoPage/>
+        <img src={BlogImg} alt=''/>
+        <img src={BlogImg} alt=''/>
+        <img src={BlogImg} alt=''/>
+        <img src={BlogImg} alt=''/>
+        <img src={BlogImg} alt=''/>
+        <img src={BlogImg} alt=''/>
         </Img>
         </Blog>
     </MotorPage>
