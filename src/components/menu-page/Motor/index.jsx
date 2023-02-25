@@ -1,7 +1,7 @@
 import React from 'react'
 import CarouselPage from '../../home/carousel'
 import MultiCarousel from '../../home/multi-carousel'
-import { Reccomend,Main,MotorPage,Blog,Text,Img} from './style'
+import { Reccomend,Main,MotorPage,Blog,Text,Img,Footer,Con1,Con2,Con3,Con4} from './style'
 import VideoPage from '../../home/Video/VideoPage'
 import BlogImg from '../../Data/assets/car1.png'
 
@@ -35,6 +35,30 @@ const Motor = () => {
         <img src={BlogImg} alt=''/>
         </Img>
         </Blog>
+        <Footer>
+<Con1> Camper</Con1>
+<Con2>
+  <h2>Services</h2>
+  <p>Camping</p>
+  <p>Camping</p>
+  <p>Camping</p>
+  <p>Camping</p>
+</Con2>
+<Con3>
+<h2>Menu</h2>
+  <p>Camping</p>
+  <p>Camping</p>
+  <p>Camping</p>
+  <p>Camping</p>
+</Con3>
+<Con4>
+<h2>Contact</h2>
+  <p>Camping</p>
+  <p>Camping</p>
+  <p>Camping</p>
+  <p>Camping</p>
+</Con4>
+        </Footer>
     </MotorPage>
   )
 }
