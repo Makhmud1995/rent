@@ -67,5 +67,31 @@ background: rgba(55, 55, 55, 0.1);
 border-radius: 10px;
 border:none;
 }
+`
+export const Button =styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+width: 434px;
+height: 50px;
+cursor:pointer;
+p{
+    width: 58px;
+height: 21.43px;
+left: 654px;
+top: 422px;
 
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+/* blue */
+
+background: #006DAB;
+border-radius: 10px;
 `
