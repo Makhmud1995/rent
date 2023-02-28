@@ -1,6 +1,10 @@
 import React from 'react'
-import { SignPage,LoginPage,LoginItem,Button,Border} from './style'
+import { SignPage,LoginPage,LoginItem,Button,Border,Button2,MediaIcons} from './style'
 import Checkbox from 'antd/es/checkbox/Checkbox'
+import IconN from '../../../assets/other/vs_naver.png'
+import IconG from '../../../assets/other/Group.png'
+import IconK from '../../../assets/other/ri_kakao-talk-fill.png'
+import { Link } from 'react-router-dom'
 const Profil = () => {
   return (
     <SignPage>
@@ -20,6 +24,16 @@ const Profil = () => {
 <p>OR</p>
 <div></div>
         </Border>
+        <MediaIcons>
+<div id='imgN'> <img src={IconN} alt="" /></div>
+
+<Link to={'/GoogleLogin'}>
+  <div id='imgG'> <img src={IconG} alt="" /></div>
+  </Link>
+<div id='imgK'> <img src={IconK} alt="" /></div>
+        </MediaIcons>
+        <Button2><p>CREATE ACCOUNT</p></Button2>
+
       </LoginItem>
     </LoginPage>
     </SignPage>
