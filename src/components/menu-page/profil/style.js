@@ -93,5 +93,34 @@ color: #FFFFFF;
 /* blue */
 
 background: #006DAB;
-border-radius: 10px;
+border-radius: 20px;
+`
+
+export const Border = styled.div`
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+div{
+    width: 119.02px;
+    border-bottom: 2px solid rgba(55, 55, 55, 0.15);
+}
+p{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 20px;
+height: 19px;
+left: 673.01px;
+top: 478px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #6D6D6D;
+}
 `
